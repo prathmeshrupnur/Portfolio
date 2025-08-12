@@ -1,0 +1,29 @@
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 26px 41px;
+}
+.navbar-inner{
+    display: flex;
+
+    height: 26px;
+    width: 468px;
+    gap: 31px;
+}
+.navbar-inner>a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    color: #000;
+    text-align: center;
+}
+
+.navbar-inner>a:hover{
+    border-bottom: 2px solid #000;
+    color: #0000007d;
+    transform: scale(1.03);
+}
+a{
+    cursor: pointer;   
+}

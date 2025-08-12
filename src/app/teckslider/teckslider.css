@@ -1,0 +1,38 @@
+.slider-track>img{
+    height: 43px;
+    width: 43px;
+}
+.testimonial-container{
+
+}
+
+.testimonial-container {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .slider-track {
+    /* width: calc(200%); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    height: 113px;
+    animation: scroll 20s linear infinite;
+  }
+  
+  .slider-track img {
+    height: 50px;         
+    margin: 0 20px;
+    flex-shrink: 0;
+  }
+  
+
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }

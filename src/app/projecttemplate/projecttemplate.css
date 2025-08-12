@@ -1,0 +1,79 @@
+.project-testi-outer{
+    width: 500px;
+    height: 443px;   
+    background-color: #f6f6f6;
+    margin: 5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    box-shadow: 4px 4px 40.8px rgba(0, 0, 0, 0.06);
+    align-items: center;
+}
+#project-img{
+    height: 273px;
+    width: 475px;
+    border-radius: 14px;
+}
+#direct-logos{
+    height: 21px;
+    width: 21px;
+}
+
+#heading{
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 24px;
+    line-height: 121%;
+    letter-spacing: -2%;
+}
+.project-testi-outer-box{
+    display: flex;
+    flex-direction: column;  
+    width: 475px; 
+    gap: 14px;
+}
+.project-testi-outer-box-1{
+    display: flex;
+    justify-content: space-between;
+}
+
+#desc{
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 12px;
+    line-height: 121%;
+    letter-spacing: -2%;
+    height: 45px;
+    width: 476px;
+}
+.project-testi-outer-box-2{
+    display: flex;
+    height: 15px;
+    gap: 14px;
+    overflow: hidden;
+}
+#teck-info{
+    height: 15px;
+    font-size: 10px;
+    font-style: SemiBold;
+    line-height: 121%;
+    letter-spacing: -2%;
+    text-align: center;
+    background-color: #E9E9E9;
+    padding: 0 5px;
+
+}
+#direct-logos-box{
+    display: flex;
+    gap: 12px;
+}
+.main-container{
+    padding: 0em 5em;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

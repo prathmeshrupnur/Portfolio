@@ -1,0 +1,16 @@
+<section class="container" id="qualification">
+  <div
+    *ngFor="let section of data"
+    [ngClass]="['box', section.id % 2 === 0 ? 'right' : 'left', 'item' + section.id]"
+    id="box"
+  >
+    <section
+      [ngClass]="[section.id % 2 === 0 ? 'dot1' : 'dot2','dot']"
+    ></section>
+    <h1>{{section.heading}}</h1>
+    <div *ngFor="let data of section.data" class="box-inner">
+      <li>{{data.title}}</li>
+      <p>{{data.desc}}</p>
+    </div>
+  </div>
+</section>
